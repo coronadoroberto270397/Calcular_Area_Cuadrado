@@ -1,10 +1,11 @@
 #Primer prueba de programacion 21/07/2020
 #Area_Cuadrado
 
-def suma(a,b):
-    igual=a+b
+import math
+
+def area(a):
+    igual=pow(a,2)
     return igual
 
-a=int(input("Escribe un numero:",))
-b=int(input("Escribe un numero:",))
-print (suma(a,b))
+a=int(input("Ingresa la medida de un lado:",))
+print (area(a))
