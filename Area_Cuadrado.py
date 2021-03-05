@@ -7,5 +7,5 @@ def area(a):
     igual=pow(a,2)
     return igual
 
-a=int(input("Ingresa la medida de un lado:",))
+a=int(input("Ingresa la medida del lado:",))
 print (area(a))
